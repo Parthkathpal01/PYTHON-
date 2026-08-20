@@ -26,10 +26,18 @@
 # for i in range(1, 11):
 #     print(n * i)
 
+# n = int(input("Enter the number: "))
+# sum = 0
+# i = 1
+# while(i <= n):
+#     sum = sum + i
+#     i += 1
+# print(sum)
+
 n = int(input("Enter the number: "))
-sum = 0
+fact = 1
 i = 1
 while(i <= n):
-    sum = sum + i
+    fact = fact * i
     i += 1
-print(sum)
+print(fact)
