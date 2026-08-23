@@ -22,12 +22,12 @@
 # sum = calc_sum(5)
 # print(sum)
 
-def print_list(list, index = 0):
-    if(index == len(list)):
-        return
-    print(list[index])
-    print_list(list, index +1)
+# def print_list(list, index = 0):
+#     if(index == len(list)):
+#         return
+#     print(list[index])
+#     print_list(list, index +1)
     
-fruits = ["Apple", "Banana", "Mango"]
-print_list(fruits)
+# fruits = ["Apple", "Banana", "Mango"]
+# print_list(fruits)
     
